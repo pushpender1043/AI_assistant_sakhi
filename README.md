@@ -1,58 +1,69 @@
 <div align="center">
 
-# 🤖 S.A.K.H.I
-### *Smart AI Knowledge & Human Interface*
+# 🤖 S.A.K.H.I.
+### *Smart Artificial Knowledge & Help Interface*
 
-[![Python](https://img.shields.io/badge/Language-Python_3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Groq](https://img.shields.io/badge/AI_Engine-Groq_LPU-orange?style=for-the-badge&logo=fastapi&logoColor=white)](https://groq.com/)
-[![HuggingFace](https://img.shields.io/badge/Models-Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![AI & NLP](https://img.shields.io/badge/AI_&_NLP-FF9900?style=for-the-badge&logo=openai&logoColor=white)]()
+[![Automation](https://img.shields.io/badge/PC_Automation-00C7B7?style=for-the-badge)]()
 
 <br />
 
-> **"Your Intelligent Voice-Activated Desktop Companion."**
-
-[🚀 Features](#-features) · [🛠 Installation](#-installation) · [💻 Usage](#-usage) · [🔑 API Setup](#-api-setup)
+> **"Your Advanced Personal Virtual Assistant, Inspired by J.A.R.V.I.S."**
 
 </div>
 
 ---
 
-## ⚡ Overview
+## 🎩 Introduction
 
-**S.A.K.H.I** is a powerful Python-based desktop assistant designed to bridge the gap between human speech and digital execution. Utilizing the blazing fast speed of **Groq's LPU** and the versatility of **Hugging Face** models, S.A.K.H.I listens to your voice commands, processes complex queries, and responds in natural human-like speech.
+**S.A.K.H.I.** is a highly modular, advanced Python-based virtual assistant. It features a complete separation of Frontend (GUI) and Backend (Logic), making it highly scalable. From real-time voice interactions to AI image generation and PC automation, Sakhi acts as a complete desktop companion.
 
-It's not just a chatbot; it's a productivity booster that lives on your desktop.
+## ✨ Key Features
 
-## 💎 Features
-
-| Capability | Description |
+| Module | Superpower |
 | :--- | :--- |
-| 🗣️ **Voice Interaction** | Seamless **Speech-to-Text** (Input) and **Text-to-Speech** (Output). |
-| 🧠 **Advanced AI** | Powered by **Groq API** for ultra-low latency responses. |
-| 🤖 **NLP Engine** | Leverages **Hugging Face** transformers for context understanding. |
-| 💻 **Desktop Control** | Can launch applications and perform system tasks. |
-| 💬 **Dual Mode** | Supports both voice commands and text-based chat. |
-| ⚡ **Real-time** | Optimized for immediate response generation. |
+| **🎙️ Voice Interaction** | Highly responsive **Speech-to-Text** and **Text-to-Speech** engines. |
+| **🧠 AI Intelligence** | Integrated AI chatbot and custom NLP models for smart conversations. |
+| **🎨 Image Generation** | Ability to generate images on the fly using AI prompts. |
+| **🌐 Real-Time Search** | Fetches live data and answers directly from the internet. |
+| **⚙️ PC Automation** | Controls local desktop applications and automates routine tasks. |
+| **🖥️ Futuristic GUI** | Animated, interactive graphical interface with live state tracking. |
 
-## 🛠️ Tech Stack
-
-Built with a robust ecosystem of Python libraries:
-
-* **Core:** `Python`
-* **LLM Inference:** `Groq API` (Llama 3 / Mixtral)
-* **Models:** `Hugging Face Hub`
-* **Voice Recognition:** `SpeechRecognition`
-* **Audio Synthesis:** `pyttsx3` / `gTTS`
-
-## 📂 Project Structure
+## 📂 Modular Architecture
 
 ```text
 AI_assistant_Sakhi/
-├── main.py              # Entry point of the assistant
-├── engine/              # Core logic for speech and processing
-│   ├── command.py       # Speech recognition logic
-│   └── speak.py         # Text-to-speech engine
-├── config/              # Configuration and API keys
-├── requirements.txt     # Python dependencies
-└── README.md            # Documentation
+├── S.A.K.H.I/
+│   ├── Backend/              # Core AI and Logic Modules
+│   │   ├── Automation.py     # System control scripts
+│   │   ├── Chatbot.py        # Conversational AI logic
+│   │   ├── ImageGeneration.py# AI Image generator
+│   │   ├── RealtimeSearchEngine.py 
+│   │   ├── SpeechToText.py   # Voice input handling
+│   │   └── TextToSpeech.py   # Voice output handling
+│   ├── Frontend/             # Interactive UI
+│   │   ├── GUI.py            # Main Graphical Interface
+│   │   ├── Graphics/         # Animations & Assets (Jarvis.gif, etc.)
+│   │   └── Files/            # Live state trackers (.data files)
+│   ├── Data/                 # Audio and text resources
+│   ├── Main.py               # Application Entry Point
+│   └── Requirements.txt      # Project Dependencies
+
+
+
+💻 Local Setup
+git clone [https://github.com/pushpender1043/AI_assistant_Sakhi.git](https://github.com/pushpender1043/AI_assistant_Sakhi.git)
+cd AI_assistant_Sakhi/S.A.K.H.I
+
+
+pip install -r Requirements.txt
+
+
+python Main.py
+
+
+
+
+
+
