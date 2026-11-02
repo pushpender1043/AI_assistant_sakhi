@@ -56,14 +56,6 @@ AI_assistant_Sakhi/
 git clone [https://github.com/pushpender1043/AI_assistant_Sakhi.git](https://github.com/pushpender1043/AI_assistant_Sakhi.git)
 cd AI_assistant_Sakhi/S.A.K.H.I
 
-
 pip install -r Requirements.txt
 
-
 python Main.py
-
-
-
-
-
-
